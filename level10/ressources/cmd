@@ -1,0 +1,11 @@
+disas ./level10
+
+*call <0x2848 access()>*
+
+google > exploit access function
+
+Trouver qu'il faut race pour exploit donc faire des liens symboliques
+qui changent avant et apres l'execution du programme
+
+envoyer sur sa propre machine via netcat le resultat du script
+voir defiler le token parmis les chars non pertinents

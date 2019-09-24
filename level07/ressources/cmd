@@ -1,0 +1,6 @@
+c'est un binaire elf comme nous montre file level07
+on cherche la section .rodata a l'interieur de laquelle il y a la stringtable et ainsi voir les strings en dur
+on voit les messages /bin/echo %s et LOGNAME
+En voyant les variables d'environnements avec env, on voit LOGNAME
+on change le logname avec LOGNAME=/`getflag/`
+on exec le binaire et on a le flag

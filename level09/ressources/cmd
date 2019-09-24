@@ -1,0 +1,9 @@
+`./level09 token`
+> tpmhr
+`./level09 aaa`
+> abc
+On peut voir que les char = sa place dans la chaine et les suivants sont = char + 1
+`cd /tmp`
+`vim decrypt.c`
+`gcc decrypt.c && ./a.out`
+> flag

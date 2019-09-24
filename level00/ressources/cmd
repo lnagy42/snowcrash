@@ -1,0 +1,4 @@
+ls -GRla / | grep flag00
+find / -name 'john'
+cat /usr/sbin/john
+DCODE -> code cesar -> nottoohardhere

@@ -1,0 +1,3 @@
+x(param("x"));
+execute la fonction sur le premier argument passe a l'url
+-> URL/?x=`getflag`

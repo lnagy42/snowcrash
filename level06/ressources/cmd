@@ -1,0 +1,3 @@
+creer un fichier simple en ayant pour but de matcher avec la regexp dans le fichier php.
+[x {${exec(getflag)}}]
+executer ./level06 filename

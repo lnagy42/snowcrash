@@ -1,0 +1,5 @@
+cat /etc/passwd
+-> 42hDRfypTqqnw
+echo 42hDRfypTqqnw > mypassd
+./john --show mypassd
+> abdefg

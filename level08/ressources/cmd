@@ -1,0 +1,2 @@
+on voit que le file level08 elf ne veut pas ouvrir le fichier token specifiquement avec objdump -S -j .rodata level08 car il y a un %s avec juste le nom du fichier au dessus
+donc il faut rediriger un lien vers token. on fait un lien symbolique vers un fichier dans tmp et on execute ce nouveau fichier

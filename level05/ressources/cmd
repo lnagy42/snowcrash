@@ -1,0 +1,3 @@
+scipt bash a mettre dans /opt/openarenaserver:
+ #!/bin/bash
+ getflag >> /tmp/lol.txt

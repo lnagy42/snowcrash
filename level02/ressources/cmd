@@ -1,0 +1,4 @@
+install wireshark
+scp -P 4242 level02@192.168.0.10:level02.pcap .
+dans wireshark > Analyze > Follow > TCP STREAM
+password en clair : ft_wandrDELDELDELNDRDelDELL0L

